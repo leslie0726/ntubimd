@@ -1,0 +1,19 @@
+<div class="container">
+	<div class="row">
+    <div class="col-3">
+      <%= render "shared/leftFrame"%>
+    </div>
+    <div class="col-9">
+      <span><a href="#">首頁</a> </span>><span> <a href="/home/index">徵才資訊</a></span>
+      <div class="border rounded">
+        <% @jobs.each do |job| %>
+          <%= link_to job.title, job %>[ <%= job.publish_date %> ]<br>
+          <%= job.content %>
+          <br>
+          <br>
+          <br>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

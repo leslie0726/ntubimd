@@ -1,0 +1,26 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.test{
+    background:#b6e0f9 image-url("/assets/div.gif") repeat-x left top;
+    min-height:33px;
+}
+.menu{
+    color: #004080;
+}
+.menu_title{
+    background:#b6e0f9 image-url("/assets/menu_bg.gif") repeat-x left top;
+    background-position: bottom center;
+    border: 5px;    
+    border-color: azure
+}
+.menu a {
+    color: #004080;
+}
+.menu a :hover{
+    color: #004080;
+}
+
+.footer{
+    color: #004080;
+}
